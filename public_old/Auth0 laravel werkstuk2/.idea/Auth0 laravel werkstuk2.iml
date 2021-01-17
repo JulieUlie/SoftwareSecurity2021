@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/SoftwareSecurity/app" isTestSource="false" packagePrefix="App\" />
+      <sourceFolder url="file://$MODULE_DIR$/SoftwareSecurity/database/factories" isTestSource="false" packagePrefix="Database\Factories\" />
+      <sourceFolder url="file://$MODULE_DIR$/SoftwareSecurity/database/seeders" isTestSource="false" packagePrefix="Database\Seeders\" />
+      <sourceFolder url="file://$MODULE_DIR$/SoftwareSecurity/tests" isTestSource="true" packagePrefix="Tests\" />
+      <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/hamcrest/hamcrest-php" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/fideloper/proxy" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/fruitcake/laravel-cors" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/monolog/monolog" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/phpspec/prophecy" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/league/commonmark" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/league/mime-type-detection" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/phpoption/phpoption" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/webmozart/assert" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/brick/math" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/league/flysystem" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/graham-campbell/result-type" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/ralouphie/getallheaders" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/guzzlehttp/promises" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/guzzlehttp/psr7" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/guzzlehttp/guzzle" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/sebastian/type" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/laravel/tinker" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/sebastian/diff" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/laravel/sail" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/sebastian/lines-of-code" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/laravel/framework" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/sebastian/object-enumerator" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/sebastian/comparator" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/sebastian/code-unit" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/sebastian/exporter" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/sebastian/cli-parser" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/sebastian/version" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/sebastian/complexity" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/sebastian/recursion-context" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/nikic/php-parser" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/sebastian/resource-operations" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/sebastian/global-state" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/sebastian/environment" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/sebastian/code-unit-reverse-lookup" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/sebastian/object-reflector" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/filp/whoops" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/facade/ignition-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/facade/flare-client-php" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/facade/ignition" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/psr/simple-cache" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/psr/http-message" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/psr/event-dispatcher" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/psr/log" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/psr/container" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/psr/http-client" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/asm89/stack-cors" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/theseer/tokenizer" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/nesbot/carbon" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/opis/closure" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/mockery/mockery" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/doctrine/lexer" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/doctrine/instantiator" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/doctrine/inflector" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/voku/portable-ascii" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/phpunit/php-code-coverage" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/phpunit/phpunit" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/phpunit/php-text-template" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/phpunit/php-invoker" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/phpunit/php-file-iterator" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/myclabs/deep-copy" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/phpunit/php-timer" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/nunomaduro/collision" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/tijsverkoyen/css-to-inline-styles" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/psy/psysh" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/vlucas/phpdotenv" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/dragonmantank/cron-expression" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/phpdocumentor/reflection-docblock" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/phpdocumentor/type-resolver" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/phpdocumentor/reflection-common" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/phar-io/version" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/phar-io/manifest" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/swiftmailer/swiftmailer" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/fakerphp/faker" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/dnoegel/php-xdg-base-dir" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/symfony/polyfill-mbstring" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/egulias/email-validator" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/symfony/finder" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/symfony/deprecation-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/symfony/routing" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/symfony/http-client-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/symfony/polyfill-intl-grapheme" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/symfony/css-selector" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/symfony/polyfill-intl-normalizer" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/symfony/polyfill-php80" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/symfony/mime" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/symfony/polyfill-ctype" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/symfony/polyfill-php72" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/symfony/error-handler" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/symfony/event-dispatcher-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/symfony/polyfill-php73" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/symfony/polyfill-intl-idn" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/symfony/console" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/symfony/polyfill-iconv" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/symfony/event-dispatcher" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/symfony/var-dumper" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/symfony/http-foundation" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/symfony/http-kernel" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/symfony/translation-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/symfony/service-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/symfony/string" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/symfony/translation" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/symfony/process" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/ramsey/collection" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/ramsey/uuid" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/laravel/ui" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/nyholm/psr7" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/paragonie/random_compat" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/php-http/message-factory" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/phpseclib/phpseclib" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/psr/http-factory" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/symfony/psr-http-message-bridge" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/defuse/php-encryption" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/lcobucci/clock" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/lcobucci/jwt" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/league/oauth2-server" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/league/event" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/firebase/php-jwt" />
+      <excludeFolder url="file://$MODULE_DIR$/SoftwareSecurity/vendor/laravel/passport" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
