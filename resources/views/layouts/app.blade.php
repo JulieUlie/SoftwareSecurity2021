@@ -107,7 +107,7 @@
             box-shadow: 0px 0 4px rgba(0, 0, 0.15);
         }
     </style>
-    @include('cookieConsent::index')
+
     @section('footer')
         @include('layouts.footer')
     @show
