@@ -19,5 +19,7 @@ Route::middleware(['client','throttle:20,2'])->get('/user', function (Request $r
 });
 Route::middleware(['client','throttle:20,2'])->group(function () {
     Route::apiResource('tweet', 'App\Http\Controllers\API\TweetController');
+    Route::options('tweet','App\Http\Controllers\API\TweetController@options');
+    Route::options('tweet/{tweet}','App\Http\Controllers\API\TweetController@options2');
 });
 

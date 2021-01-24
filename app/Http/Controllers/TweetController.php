@@ -37,6 +37,9 @@ class TweetController extends Controller
      */
     public function store(Request $request)
     {
+        if(Auth::user()->isAdmin === "admin"){
+            return response()->json(["error"=>"Admins cannot create resources."], 403);
+        }
         $new = new Tweet();
         $new->tweet = $request->tweet;
         $new->user_id = Auth::User()->id;
