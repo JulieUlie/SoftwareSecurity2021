@@ -23,6 +23,7 @@
     <li>Changes to our privacy policy</li>
     <li>How to contact us</li>
     <li>How to contact the appropriate authorities</li>
+    <li>Processing Register</li>
 </ul>
 <h3>What data do we collect?</h3>
 <p>Our Company collects the following data:</p>
@@ -84,5 +85,7 @@
 <h3>How to contact the appropriate authority</h3>
 <p>Should you wish to report a complaint or if you feel that Our Company has not addressed your concern in a satisfactory manner, you may contact the Information Commissioner’s Office.</p>
 <p>Email:julietous@outlook.com</p>
+<h3><a href="/Verwerkingsregister.xlsx">Download: Processing register</a></h3>
+
 </div></div></div></div>
 @endsection

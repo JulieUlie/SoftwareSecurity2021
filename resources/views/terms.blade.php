@@ -52,5 +52,9 @@
 <h2>9. Governing Law</h2>
 
 <p>Any claim related to julietous.be's Website shall be governed by the laws of be without regards to its conflict of law provisions.</p>
-</div></div></div></div>
+</div></div>
+
+<h3><a href="/Verwerkingsregister.xlsx">Download: Processing register</a></h3>
+
+</div></div>
 @endsection
