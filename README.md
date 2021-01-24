@@ -45,12 +45,13 @@ php artisan serve
 
 ## Tweet API Documentation
 
-**Verb	    URI	            Action	        Form Data (Form URL Encoded)**  
-GET	        /api/tweet	    index	        N/A  
-POST	    /api/tweet	    Create a Tweet	tweet  
-GET	        /api/tweet/{id}	show	        N/A  
-PUT/PATCH	/api/tweet/{id}	update	        tweet  
-DELETE	    /api/tweet/{id}	destroy	        N/A  
+| **Verb**      | **URI**             | **Action**         | **Form Data (Form URL Encoded)**|
+|-----------|-----------------|----------------|-----------------------------|
+| GET       | /api/tweet      | index          | N/A                         |
+| POST      | /api/tweet      | Create a Tweet | tweet                       |
+| GET       | /api/tweet/{id} | show           | N/A                         |
+| PUT/PATCH | /api/tweet/{id} | update         | tweet                       |
+| DELETE    | /api/tweet/{id} | destroy        | N/A                         |
 
 **Form Data**
 
