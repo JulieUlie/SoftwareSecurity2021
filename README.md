@@ -42,6 +42,16 @@ Check of de mail settings ingesteld zijn in de .env configuratie. (Registratie v
 php artisan serve
 ```
 
+Je kan een Personal Access Token genereren die je voor OAuth2 authenticatie kan gebruiken
+
+```
+Authorization: Bearer <api_token>
+```
+## Access Control Policy
+* Voor alle operaties collecties moet de gebruiker aangemeld zijn;
+* Er is een onderscheid tussen gewone gebruikers, die we verder 'gebruikers' zullen noemen, en toepassingsbeheerders, die we verder 'beheerders' zullen noemen;
+* Een resource aangemaakt door een gebruiker kan niet door een andere gebruiker verwijderd worden, terwijl een beheerder dit wel kan;
+* Een beheerder kan geen resources aanmaken.
 
 ## Tweet API Documentation
 
