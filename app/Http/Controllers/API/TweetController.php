@@ -3,11 +3,18 @@
 namespace App\Http\Controllers\API;
 
 use App\Http\Controllers\Controller;
+use App\Http\Resources\TweetResource;
 use App\Models\Tweet;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Http\Request;
 
 class TweetController extends Controller
 {
+    public function __construct()
+    {
+        $this->middleware('client');
+        $this->user =  auth()->guard('api')->user();
+    }
     /**
      * Display a listing of the resource.
      *
@@ -19,15 +26,6 @@ class TweetController extends Controller
         return response()->json($tweet);
     }
 
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function create()
-    {
-        //
-    }
 
     /**
      * Store a newly created resource in storage.
@@ -37,7 +35,12 @@ class TweetController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $new = new Tweet();
+        $new->tweet = $request->tweet;
+        $new->user_id = $this->user->id;
+        $new->save();
+        $tweets = Tweet::orderBy('created_at', 'desc')->get();
+        return response()->json($new);
     }
 
     /**
@@ -48,7 +51,7 @@ class TweetController extends Controller
      */
     public function show(Tweet $tweet)
     {
-        //
+        return new TweetResource($tweet);
     }
 
     /**
@@ -57,10 +60,6 @@ class TweetController extends Controller
      * @param  \App\Models\Tweet  $tweet
      * @return \Illuminate\Http\Response
      */
-    public function edit(Tweet $tweet)
-    {
-        //
-    }
 
     /**
      * Update the specified resource in storage.
@@ -69,9 +68,15 @@ class TweetController extends Controller
      * @param  \App\Models\Tweet  $tweet
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Tweet $tweet)
+    public function update($id, Request $request)
     {
-        //
+        $t = Tweet::find($id);
+        if ($this->user->id !== $t->user_id) {
+            return response()->json(['error' => 'You can only edit your own tweets.'], 403);
+        }
+        $t->tweet = $request->tweet;
+        $t->save();
+        return new TweetResource($t);
     }
 
     /**
@@ -82,6 +87,10 @@ class TweetController extends Controller
      */
     public function destroy(Tweet $tweet)
     {
-        //
+        if ($this->user->id !== $tweet->user_id) {
+            return response()->json(['error' => 'You can only delete your own tweets.'], 403);
+        }
+        $tweet->delete();
+        return response()->json(['data'=>'Successfully deleted'],200);
     }
 }

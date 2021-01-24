@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use App\Models\Tweet;
-
+use Illuminate\Http\Resources\Json\JsonResource;
 class TweetController extends Controller
 {
     /**
@@ -27,7 +27,6 @@ class TweetController extends Controller
     public function create(Request $request)
     {
         //
-
     }
 
     /**
@@ -44,7 +43,6 @@ class TweetController extends Controller
         $new->save();
         $tweets = Tweet::orderBy('created_at', 'desc')->get();
         return redirect('tweet');
-        //
     }
 
     /**

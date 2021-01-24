@@ -7,7 +7,8 @@
         <div class="col-md-8">
             <div class="card">
                 <div class="card-header">{{ __('Tweets forum') }}</div>
-                <div class="card-body bg-dark">
+                <script src="https://cdn.cai.tools.sap/webchat/webchat.js" channelId="27e65129-5fcb-412d-9d13-1f6958b93573" token="5983b3c6aefc748e9a3328421e428475" id="cai-webchat">
+                    </script><div class="card-body bg-dark">
                     <form method="POST" class="form-group">
                         @csrf
                         <div class="col-12">

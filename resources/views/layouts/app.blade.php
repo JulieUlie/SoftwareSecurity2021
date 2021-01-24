@@ -108,6 +108,10 @@
         }
     </style>
     @include('cookieConsent::index')
+    @section('footer')
+        @include('layouts.footer')
+    @show
+
 </body>
 
 </html>

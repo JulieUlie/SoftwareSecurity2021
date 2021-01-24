@@ -14,10 +14,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::middleware('auth:api')->get('/user', function (Request $request) {
+Route::middleware('client')->get('/user', function (Request $request) {
     return $request->user();
 });
-Route::middleware('auth:api')->group(function () {
+Route::middleware('client')->group(function () {
+    Route::apiResource('tweet', 'App\Http\Controllers\API\TweetController');
 
-    Route::resource('tweet', 'App\Http\Controllers\API\TweetController');
 });
+

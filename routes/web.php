@@ -36,5 +36,14 @@ Route::middleware(['auth'])->group(function () {
             return view('home');
         });
         Route::resource('tweet', TweetController::class);
+        Route::get('/api', function () {
+            return view('api');
+        });
     });
+});
+Route::get('/privacy', function () {
+    return view('privacy');
+});
+Route::get('/terms', function () {
+    return view('terms');
 });

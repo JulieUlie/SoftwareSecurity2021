@@ -3,7 +3,9 @@
 namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
+use Illuminate\Http\Request;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
+use Illuminate\Foundation\Auth\ThrottlesLogins;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Session;
@@ -22,10 +24,10 @@ class LoginController extends Controller
     */
 
     use AuthenticatesUsers;
+    use ThrottlesLogins;
 
-    protected $maxAttempts = 5; // Default is 5
-    protected $decayMinutes = 1; // Default is 1
-
+    protected $maxAttempts = 5;
+    protected $decayMinutes = 1;
     /**
      * Where to redirect users after login.
      *
@@ -54,7 +56,6 @@ class LoginController extends Controller
         // Log::info('User Logged Out. ', [$user]);
         Auth::logout();
         Session::flush();
-
         return redirect(property_exists($this, 'redirectAfterLogout') ? $this->redirectAfterLogout : '/');
     }
 }

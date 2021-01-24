@@ -9,7 +9,9 @@ class Tweet extends Model
 {
     public $timestamps = true;
     protected $dates = ['deleted_at','created_at','updated_at'];
-
+    protected $primaryKey = 'id';
+    protected $keyType = 'int';
+    protected $fillable = ['tweet'];
     public function user()
     {
         return $this->belongsTo(User::class);
