@@ -26,8 +26,12 @@ php artisan passport:client --personal
 
 ### Kopieer de id en client secret naar de .env
 
-*PASSPORT_PERSONAL_ACCESS_CLIENT_ID=
-*PASSPORT_PERSONAL_ACCESS_CLIENT_SECRET=
+```
+PASSPORT_PERSONAL_ACCESS_CLIENT_ID=
+PASSPORT_PERSONAL_ACCESS_CLIENT_SECRET=
+```
+
+### Check of de mail settings ingesteld zijn in de .env configuratie. (Registratie vereist mail)
 
 ```
 php artisan serve
