@@ -43,6 +43,20 @@ php artisan serve
 ```
 
 
+## Tweet API Documentation
+
+**Verb	    URI	            Action	        Form Data (Form URL Encoded)**
+GET	        /api/tweet	    index	        N/A
+POST	    /api/tweet	    Create a Tweet	tweet
+GET	        /api/tweet/{id}	show	        N/A
+PUT/PATCH	/api/tweet/{id}	update	        tweet
+DELETE	    /api/tweet/{id}	destroy	        N/A
+
+**Form Data**
+
+The PUT/PATH only seems to work with urlencoded data, however you can use a multipart form with the create tweet function.
+Note you can only delete or update tweets which you own.
+
 ## Verwerkingsregister
 
 <verwerkingsregister>
