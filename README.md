@@ -29,8 +29,10 @@ PASSPORT_PERSONAL_ACCESS_CLIENT_ID=
 PASSPORT_PERSONAL_ACCESS_CLIENT_SECRET=
 
 ```
+php artisan migrate
 php artisan serve
 ```
+
 
 ## Verwerkingsregister
 
