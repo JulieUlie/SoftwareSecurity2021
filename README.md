@@ -5,6 +5,11 @@
 Opdracht link: [opdracht](https://ehb.instructure.com/courses/19976/assignments/47446)
 Website url: [julietous.be](https://julietous.be/)
 
+## Korte uitleg
+
+Dit project werd in Laravel uitgewerkt door Julie Toussaint.
+Na je email te verifieren is het mogelijk te navigeren naar de tweets pagina, waarop het mogelijk is tweets te posten. Dit werkt met een Rest API. De Regex van de paswoord filter blokkeerd de 10000 meest voorkomende paswoorden door gebruik te maken van HaveIBeenPwned API. Cookies en GDPR gerelateerde delen zijn ook voorzien op de website. Deze is ook beveiligd tegen courante online aanvallen en kwetsbaarheden.
+
 ## Instructies
 
 Installeer PHP 8
