@@ -70,4 +70,4 @@ Note you can only delete or update tweets which you own.
 
 ## Verwerkingsregister
 
-<verwerkingsregister>
+[Verwerkingsregister](https://julietous.be/privacy)
