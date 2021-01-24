@@ -87,8 +87,10 @@ class TweetController extends Controller
      */
     public function destroy(Tweet $tweet)
     {
-        if ($this->user->id !== $tweet->user_id) {
-            return response()->json(['error' => 'You can only delete your own tweets.'], 403);
+        if($this->user->isAdmin !== "admin"){
+            if ($this->user->id !== $tweet->user_id) {
+                return response()->json(['error' => 'You can only delete your own tweets.'], 403);
+            }
         }
         $tweet->delete();
         return response()->json(['data'=>'Successfully deleted'],200);

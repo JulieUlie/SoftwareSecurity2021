@@ -3,11 +3,12 @@
 namespace App;
 
 use Illuminate\Notifications\Notifiable;
+use Laravel\Passport\HasApiTokens;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 
 class User extends Authenticatable
 {
-    use Notifiable;
+    use HasApiTokens, Notifiable;
 
     const ADMIN_TYPE = 'admin';
     const DEFAULT_TYPE = 'default';
