@@ -18,6 +18,7 @@ composer install
 ### Kopieer de .env.example naar .env en pas aan zodat MySql database verbonden is.
 
 ```
+php artisan migrate
 php artisan key:generate
 php artisan passport:install
 php artisan passport:client --personal
@@ -29,7 +30,6 @@ PASSPORT_PERSONAL_ACCESS_CLIENT_ID=
 PASSPORT_PERSONAL_ACCESS_CLIENT_SECRET=
 
 ```
-php artisan migrate
 php artisan serve
 ```
 
