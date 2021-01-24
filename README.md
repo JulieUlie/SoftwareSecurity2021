@@ -15,7 +15,7 @@ Installeer composer
 composer install
 ```
 
-### Kopieer de .env.example naar .env en pas aan zodat MySql database verbonden is.
+Kopieer de .env.example naar .env en pas aan zodat MySql database verbonden is.
 
 ```
 php artisan migrate
@@ -24,14 +24,14 @@ php artisan passport:install
 php artisan passport:client --personal
 ```
 
-### Kopieer de id en client secret naar de .env
+Kopieer de id en client secret naar de .env
 
 ```
 PASSPORT_PERSONAL_ACCESS_CLIENT_ID=
 PASSPORT_PERSONAL_ACCESS_CLIENT_SECRET=
 ```
 
-### Check of de mail settings ingesteld zijn in de .env configuratie. (Registratie vereist mail)
+Check of de mail settings ingesteld zijn in de .env configuratie. (Registratie vereist mail)
 
 ```
 php artisan serve
