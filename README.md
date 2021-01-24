@@ -7,11 +7,15 @@ Website url: [julietous.be](https://julietous.be/)
 
 ## Instructies
 
+Installeer PHP 8
+Zet de volgende opties op enable in php.ini: pdo_mysql, fileinfo, mbstring, en openssl.
+
+Installeer composer
 ```
 composer install
 ```
 
-### Kopieer de .env.example naar .env, pas het hierna aan zodat de MySql database verbonden is.
+### Kopieer de .env.example naar .env en pas aan zodat MySql database verbonden is.
 
 ```
 php artisan key:generate
