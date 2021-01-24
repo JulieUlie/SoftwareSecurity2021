@@ -12,6 +12,7 @@ use Illuminate\Support\Facades\Route;
 
 class Authenticate extends Middleware
 {
+    protected $guards = [];
     /**
      * The Guard implementation.
      *
@@ -52,8 +53,9 @@ class Authenticate extends Middleware
      *
      * @return mixed
      */
-    public function handle($request, Closure $next)
+    public function handle($request, Closure $next, ...$guards)
     {
+        $this->guards = $guards;
         if (!$this->auth->check()) {
             return redirect()->to('/login')
                 ->with('status', 'success')
